@@ -11,12 +11,12 @@ const Blogs = () => {
             </div>
             <div className='border rounded-md my-8 p-4'>
                 <h4 className='font-semibold'>2. How does contex API works?</h4> <br />
-                <p>React just maintains a tree for you and it will do efficient diff computations on the nodes. It allows you to effectively re-construct your DOM in JavaScript and push only those changes to the DOM which have actually occurred.
+                <p>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
                 </p>
             </div>
             <div className='border rounded-md my-8 p-4'>
                 <h4 className='font-semibold'>3. Write about useRef hook? </h4> <br />
-                <p>React just maintains a tree for you and it will do efficient diff computations on the nodes. It allows you to effectively re-construct your DOM in JavaScript and push only those changes to the DOM which have actually occurred.
+                <p>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
                 </p>
             </div>
         </div>

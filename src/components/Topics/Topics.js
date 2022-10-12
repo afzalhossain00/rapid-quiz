@@ -13,7 +13,7 @@ const Topics = () => {
                     <p className='mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-gray-900'>Best Online quiz test platform on Computer science and engineering. You can perform in every topics given here.</p>
 
                     <div className='flex flex-wrap justify-center'>
-                        <a href="/quiz">
+                        <a href="/home">
                             <button type='button' className='px-8 py-3 m-2 text-lg font-semibold rounded-full  text-gray-900 hover:bg-cyan-400 bg-cyan-200'>Quiz</button>
                         </a>
                         <a href="/learn-more">
