@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div className="navbar bg-slate-400 flex justify-between px-8 h-16 items-center w-11/12 rounded-md mx-auto mb-8 text-white">
+        <div className="navbar bg-slate-500 flex justify-between px-8 h-16 items-center w-11/12 rounded-md mx-auto mb-8 text-white">
             <div>
                 <a href='/home' className="btn btn-ghost normal-case text-2xl font-semibold">Rapid Quiz</a>
             </div>
