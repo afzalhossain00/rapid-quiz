@@ -6,6 +6,9 @@ const Header = () => {
     return (
         <div>
             <NavBar></NavBar>
+            {/* <section>
+                <h2 className='text-xl'>Welcome to Rapid Quiz</h2>
+            </section> */}
         </div>
     );
 };

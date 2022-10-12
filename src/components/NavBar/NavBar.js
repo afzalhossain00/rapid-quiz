@@ -9,7 +9,7 @@ const NavBar = () => {
             </div>
             <div className="text-lg">
                 <Link className='mr-4' to='/home'>Home</Link>
-                {/* <Link className='mr-4' to='/quizes'>Quiz</Link> */}
+                <Link className='mr-4' to='/quizes'>Quiz</Link>
                 <Link className='mr-4' to='/statistics'>Statistics</Link>
                 <Link className='mr-4' to='/blogs'>Blog</Link>
             </div>
