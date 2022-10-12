@@ -4,7 +4,7 @@ import TopicDetails from '../TopicDetails/TopicDetails';
 
 const Topics = () => {
     const topics = useLoaderData();
-    console.log(topics);
+    // console.log(topics);
     return (
         <div>
             <div className='bg-gray-100 w-11/12 mx-auto rounded'>
