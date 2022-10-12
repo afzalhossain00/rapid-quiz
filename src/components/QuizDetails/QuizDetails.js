@@ -5,7 +5,7 @@ const QuizDetails = ({ quiz }) => {
 
     return (
         <div className='w-11/12 mx-auto m-14 mb-6 rounded-lg border  border-gray-200 bg-gray-200'>
-            <h2 className='mt-6 text-xl font-semibold'>Question: {question}</h2>
+            <h2 className='mt-6 text-xl font-semibold bg-slate-400 text-white p-4 rounded'>Question: {question}</h2>
             <div
                 className='grid m-16 mb-6 rounded-lg border border-gray-200 shadow-sm  dark:border-gray-700 md:mb-12 md:grid-cols-2'>
                 <figure
