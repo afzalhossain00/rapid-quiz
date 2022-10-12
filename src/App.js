@@ -13,7 +13,7 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/home',
+          path: '/',
           loader: async () => {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
@@ -33,6 +33,7 @@ function App() {
         },
       ]
     },
+    { path: '/home', element: <Main></Main> },
     { path: '*', element: <div className='border rounded-md text-5xl p-20 font-bold'>404 <br /><small className='font-semibold text-3xl'>Oops! Looks like this page doesn't exist.</small></div> },
   ]);
 
